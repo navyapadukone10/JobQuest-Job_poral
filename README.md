@@ -8,14 +8,6 @@ Features
 •	Recruiters can post and delete jobs
 •	accept or reject job applications from candidates
 
-Prerequisites
-Before getting started, make sure you have the following installed on your machine:
--Node.js version 18.15.0 (or higher)
--JDK (Java Development Kit) 17
--Maven
--Installing & Usage
--cd job-quest-java
--Navigate to the backend directory jobquestbackend & open the folder in any IDE configured for Spring Boot (preferably IntelliJ IDEA).
 
 -Sync all the Maven dependencies.
 
