@@ -2,46 +2,30 @@ JobQuest
 JobQuest is a 'Job Portal' web application made using Java SpringBoot and ReactJS.
 
 Features
-Candidates can
-apply to posted jobs
-keep a watch on their job applications' status
-Recruiters can
-post and delete jobs
-accept or reject job applications from candidates
-
-Technologies Used
-Frontend
-React
-TailwindCSS for styling
-Axios
-Redux Toolkit (RTK)
-Redux Persist
-Backend
-Spring Boot
-Spring Security
-Spring Data MongoDB
-Running the Project Locally
-These instructions will help you set up a copy of the project on your local machine.
+•	Candidates can
+•	apply to posted jobs
+•	keep a watch on their job applications' status
+•	Recruiters can post and delete jobs
+•	accept or reject job applications from candidates
 
 Prerequisites
 Before getting started, make sure you have the following installed on your machine:
+-Node.js version 18.15.0 (or higher)
+-JDK (Java Development Kit) 17
+-Maven
+-Installing & Usage
+-cd job-quest-java
+-Navigate to the backend directory jobquestbackend & open the folder in any IDE configured for Spring Boot (preferably IntelliJ IDEA).
 
-Node.js version 18.15.0 (or higher)
-JDK (Java Development Kit) 17
-Maven
-Installing & Usage
-cd job-quest-java
-Navigate to the backend directory jobquestbackend & open the folder in any IDE configured for Spring Boot (preferably IntelliJ IDEA).
+-Sync all the Maven dependencies.
 
-Sync all the Maven dependencies.
+-Copy the environment variables from .env.sample to a new file .env:
 
-Copy the environment variables from .env.sample to a new file .env:
+-Obtain the values and API keys for the variables from their respective sources.
 
-Obtain the values and API keys for the variables from their respective sources.
+-Once you have setup the project and its dependencies, you can run the server.
 
-Once you have setup the project and its dependencies, you can run the server.
-
-This will start the backend server on port 8080, and you can access it in your web browser at http://localhost:8080/.
+-This will start the backend server on port 8080, and you can access it in your web browser at http://localhost:8080/.
 
 Check it by navigating to http://localhost:8080/api/v1/jobs !
 
