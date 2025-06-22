@@ -1,13 +1,6 @@
 JobQuest
 JobQuest is a 'Job Portal' web application made using Java SpringBoot and ReactJS.
 
-Table of Contents
-Demo
-Screenshots
-Features
-Technologies Used
-Running the Project Locally
-
 Features
 Candidates can
 apply to posted jobs
@@ -15,6 +8,7 @@ keep a watch on their job applications' status
 Recruiters can
 post and delete jobs
 accept or reject job applications from candidates
+
 Technologies Used
 Frontend
 React
@@ -36,8 +30,6 @@ Node.js version 18.15.0 (or higher)
 JDK (Java Development Kit) 17
 Maven
 Installing & Usage
-Clone the repository to your local machine:
-
 cd job-quest-java
 Navigate to the backend directory jobquestbackend & open the folder in any IDE configured for Spring Boot (preferably IntelliJ IDEA).
 
