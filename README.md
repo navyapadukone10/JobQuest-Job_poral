@@ -1,14 +1,6 @@
 JobQuest
 JobQuest is a 'Job Portal' web application made using Java SpringBoot and ReactJS.
 
-Features
-•	Candidates can
-•	apply to posted jobs
-•	keep a watch on their job applications' status
-•	Recruiters can post and delete jobs
-•	accept or reject job applications from candidates
-
-
 -Sync all the Maven dependencies.
 
 -Copy the environment variables from .env.sample to a new file .env:
